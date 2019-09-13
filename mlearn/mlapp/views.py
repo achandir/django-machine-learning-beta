@@ -7,7 +7,7 @@ import os
 import plotly.offline as opy
 import plotly.graph_objs as go
 from sklearn import metrics
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
